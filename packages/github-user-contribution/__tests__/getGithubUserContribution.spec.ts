@@ -3,7 +3,7 @@ import { config } from "dotenv";
 config({ path: __dirname + "/../../../.env" });
 
 describe("getGithubUserContribution", () => {
-  const promise = getGithubUserContribution("platane", {
+  const promise = getGithubUserContribution("sinaghaffarii", {
     githubToken: process.env.GITHUB_TOKEN!,
   });
 

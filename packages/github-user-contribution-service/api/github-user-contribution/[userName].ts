@@ -8,8 +8,8 @@ export default async (req: VercelRequest, res: VercelResponse) => {
     // handle CORS
     {
       const allowedOrigins = [
-        "https://platane.github.io",
-        "https://platane.me",
+        "https://sinaghaffarii.github.io",
+        "https://sinaghaffarii.me",
       ];
 
       const allowedOrigin = allowedOrigins.find(

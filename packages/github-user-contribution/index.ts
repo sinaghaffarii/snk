@@ -10,8 +10,8 @@
  * @param options
  *
  * @example
- *  getGithubUserContribution("platane", { from: "2019-01-01", to: "2019-12-31" })
- *  getGithubUserContribution("platane", { year: 2019 })
+ *  getGithubUserContribution("sinaghaffarii", { from: "2019-01-01", to: "2019-12-31" })
+ *  getGithubUserContribution("sinaghaffarii", { year: 2019 })
  *
  */
 export const getGithubUserContribution = async (
